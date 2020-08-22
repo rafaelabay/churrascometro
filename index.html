@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./src/main.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+
+    <title>Gama Academy - Calculadora de churrasco</title>
+</head>
+
+<div id="desktop">
+
+    <body id="page-content">
+        <header>
+            <h5>THE</h5>
+            <h2>Churrascômetro</h2>
+            <img src="./src/images/meat.svg" alt="">
+        </header>
+
+        <div id="comidas">
+            <h1>Comidas</h1>
+            <div class="pessoas-churras">
+                <label for="mulheres-qnt">Mulheres</label>
+                <input id="mulheres-qnt" type="text" />
+
+                <label for="homens-qnt">Homens</label>
+                <input id="homens-qnt" type="text" />
+
+                <label for="criancas-qnt">Crianças</label>
+                <input id="criancas-qnt" type="text" />
+                <br>
+                <div id="side">
+                    <label for="acompanhamentos">Acompanhamentos?</label>
+                    <input id="acompanhamentos" type="checkbox" />
+                </div>
+            </div>
+        </div>
+
+
+        <div id="bebidas">
+            <h1>Bebidas</h1>
+            <div class="tipos-bebida">
+                <label for="bebidas-alcoolicas">Bebidas alcoolicas</label>
+                <input id="bebidas-alcoolicas" type="text" />
+
+                <label for="bebidas-nao-alcoolicas">Bebidas não alcoolicas</label>
+                <input id="bebidas-nao-alcoolicas" type="text" />
+            </div>
+        </div>
+        <br>
+        <div id="align-button">
+            <button id="botaoCalcular">CALCULAR</button>
+        </div>
+        <div id="align-result">
+            <div id="resultado">
+                <div>
+                    <label for="total-carne" id="total-carne"></label>
+                </div>
+                <div>
+                    <label for="total-pessoas" id="total-pessoas"></label>
+                </div>
+                <div>
+                    <label for="total-acompanhamento" id="total-acompanhamento"></label>
+                </div>
+                <div>
+                    <label for="total-bebidas-nao-alcoolicas" id="total-bebidas-nao-alcoolicas"></label>
+                </div>
+                <div>
+                    <label for="total-bebidas-alcoolicas" id="total-bebidas-alcoolicas"></label>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <p id="developer">Develop by BAY⚡️</p>
+        <script src="./src/scripts/main.js"></script>
+    </body>
+</div>
+
+</html>
