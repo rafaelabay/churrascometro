@@ -23,6 +23,11 @@
     color: #c2c2c2;
 }
 
+#align-header {
+    display: flex;
+    justify-content: center;
+}
+
 @media(min-width: 800px) {
     #desktop {
         display: flex;
