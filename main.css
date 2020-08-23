@@ -65,6 +65,7 @@ label {
 }
 
 header {
+    max-width: 300px;
     display: flex;
     align-content: center;
     align-self: center;
@@ -72,7 +73,7 @@ header {
 }
 
 header img {
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
     max-width: 30px;
 }
 
