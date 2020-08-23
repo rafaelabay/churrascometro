@@ -40,6 +40,13 @@
         width: 4rem;
         height: 4rem;
     }
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+    header img {
+        max-width: 20px;
+    }
 }
 
 input,
@@ -65,7 +72,6 @@ label {
 }
 
 header {
-    max-width: 300px;
     display: flex;
     align-content: center;
     align-self: center;
@@ -75,6 +81,10 @@ header {
 header img {
     margin-left: 0.3rem;
     max-width: 30px;
+}
+
+#align-header {
+    display: flex;
 }
 
 
