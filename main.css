@@ -198,13 +198,4 @@ button {
         display: flex;
         flex-direction: row;
     }
-    header img {
-        display: none;
-    }
-}
-
-@media(min-width: 500px) {
-    header img {
-        display: none;
-    }
 }
