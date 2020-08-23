@@ -66,6 +66,8 @@ label {
 
 header {
     display: flex;
+    align-content: center;
+    align-self: center;
     justify-content: center;
 }
 
